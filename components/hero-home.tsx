@@ -20,7 +20,7 @@ export default function HeroHome() {
               className="mb-6 border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
               data-aos="zoom-y-out"
             >
-              {/* <div className="-mx-0.5 flex justify-center -space-x-3">
+              <div className="-mx-0.5 flex justify-center -space-x-3">
                 <Image
                   className="box-content rounded-full border-2 border-gray-50"
                   src={Avatar01}
@@ -63,15 +63,16 @@ export default function HeroHome() {
                   height={32}
                   alt="Avatar 05"
                 />
-              </div> */}
+              </div>
+              <span className="text-carionixBgDark dark:text-slate-200 font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">Estás personas ya subastaron, no te quedes fuera</span>
             </div>
+            <h2 className="mb-6 text-carionixBgDark dark:text-slate-200 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-4xl">hezven.com</h2>
             <h1
               className="mb-6 text-carionixBgDark dark:text-slate-200 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Dominio hospedado por <br className="max-lg:hidden" />
-              IQonic<sup><span className="text-lg">®</span></sup>
+              Dominio a la venta
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -79,33 +80,27 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Este es un dominio hospedado gratuitamente por iqonic.mx
+                hezven.com puede ser tuyo por $5,000.00 MXN
               </p>
-              {/* <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
+              <div className="mt-4 py-4 relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
                   <a
-                    className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    className="btn group mb-4 w-full bg-gradient-to-t from-carionixLimeDark to-carionixLimeLight bg-[length:100%_100%] bg-[bottom] text-carionixDark shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                    href="mailto:gabriel941017@icloud.com"
                   >
                     <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
-                      <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                      Comprar{" "}
+                      <span className="ml-1 tracking-normal text-carionixDark transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
                     </span>
                   </a>
-                  <a
-                    className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
-                  >
-                    Learn More
-                  </a>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
           {/* Hero image */}
